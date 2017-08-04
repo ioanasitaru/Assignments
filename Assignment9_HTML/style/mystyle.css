@@ -1,7 +1,5 @@
-#first_header, #first_nav, #left_side_section, #right_side_section, #inside_left_section_nav, #inside_left_section_aside, #main_footer, #inside_right_section_header, #inside_right_section_first_article, #inside_right_section_second_article, 
-#inside_right_section_footer, #inside_right_section_first_article_header, #inside_right_section_first_article_div, #inside_right_section_first_article_aside, #inside_right_section_first_article_p , #inside_right_section_second_article_header,
-#inside_right_section_second_article_p,#inside_right_section_second_article_div{
-	border-style: solid;
+*{
+    border-style: solid;
     border-width: 1px;
 }
 
@@ -10,7 +8,6 @@ header#first_header{
 	height: 100px;
 	margin: 1px 50px;
 }
-
 
 nav#first_nav{
 	width: 700px;
@@ -23,7 +20,6 @@ section#left_side_section{
 	height: 400px;
 	display: inline-block;
 	margin: 1px 5px 1px 50px;
-
 }
 
 section#right_side_section{
@@ -37,29 +33,24 @@ nav#inside_left_section_nav{
 	width: 190px;
 	height: 200px;
 	margin: 20px 50px 10px 50px ;
-
-
 }
 
 aside#inside_left_section_aside{
 	width: 150px;
 	height: 100px;
 	margin: 20px 70px 30px 70px;
-
 }
 
 header#inside_right_section_header{
 	width: 450px;
 	height: 40px;
 	margin: 10px 23px;
-
 }
 
 article#inside_right_section_first_article{
 	width: 450px;
 	height: 135px;
 	margin: 10px 23px;
-
 }
 
 article#inside_right_section_second_article{
@@ -111,19 +102,16 @@ div#inside_right_section_second_article_div{
 	width: 430px;
 	height: 30px;
 	margin: 5px 10px 5px;
-
 }
 
 p#inside_right_section_second_article_p{
 	width: 430px;
 	height: 30px;
 	margin: 5px 10px 5px;
-
 }
 
 footer#main_footer{
 	width: 800px;
 	height: 100px;
 	margin: 1px 50px;
-
 }
